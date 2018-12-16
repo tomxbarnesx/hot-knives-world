@@ -19,7 +19,7 @@ class Header extends Component {
             <div className="nav-button left-nav">Music</div>
             <div className="nav-button left-nav">Videos</div>
             <div className="logo-container">
-                <img src="/images/PNG.png" alt="Hot Knives" width="100%"/>
+                <img src="/public/images/PNG.png" alt="Hot Knives" width="100%"/>
             </div>
             <div className="nav-button right-nav">shows</div>
             <div className="nav-button right-nav">contact</div>
