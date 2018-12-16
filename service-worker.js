@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hot-knives-world/precache-manifest.76c73f7d37f7cf653b1d1d17974bb024.js"
+  "/hot-knives-world/precache-manifest.3e45bfa570dea0e569bfcf1025ef5e90.js"
 );
 
 workbox.clientsClaim();
