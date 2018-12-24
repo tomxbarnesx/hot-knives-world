@@ -18,7 +18,7 @@
 }
 
 .logo-container:hover {
-    animation: colorSplay 2s infinite;
+    animation: colorSplay 3s infinite;
 }
 
 .nav-button {

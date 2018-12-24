@@ -4,8 +4,9 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Bio from './components/Bio'
 import ShowComponent from './components/ShowComponent'
+import fabric from './fabric1.jpg';
 
-
+console.log(fabric);
 
 class App extends Component {
   constructor() {

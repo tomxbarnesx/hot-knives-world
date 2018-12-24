@@ -6,14 +6,19 @@
 }
 
 .platform {
-    background-color: purple;
-    height: 2em;
+    width: 3em;
 }
 
 .EP {
     width: 15em;
-    height: 15em;
-    background-color: orange;
+    box-shadow: 0em 0em 4em .15em white;
+    animation: colorSplay 3s infinite;
+}
+
+.platform-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media (min-width: 666px) { 
@@ -27,12 +32,9 @@
 
     .EP {
         width: 28em;
-        height: 28em;
-        background-color: orange;
     }
 
     .platform-container {
         width: 20em;
-        height: 20em;
     }
  }

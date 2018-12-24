@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import './Header.css';
 
-
 class Header extends Component {
 
     iconFunction() {
@@ -22,7 +21,7 @@ class Header extends Component {
             <div className="logo-container">
                 <img src="images/PNG.png" alt="Hot Knives" width="100%"/>
             </div>
-            <div className="nav-button right-nav">shows</div>
+            <div className="nav-button right-nav"><a href="#shows">shows</a></div>
             <div className="nav-button right-nav">photos</div>
             <div className="nav-button right-nav">contact</div>
             <div className="nav-hamburger">
