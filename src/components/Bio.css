@@ -1,0 +1,11 @@
+.bio-container {
+    text-align: justify;
+    padding: 2em;
+}
+
+@media (min-width: 666px) { 
+    .bio-container {
+        padding: 4em;
+        text-align: justify;
+    }
+}

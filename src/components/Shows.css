@@ -1,0 +1,13 @@
+.show-container {
+    text-align: justify;
+    padding: 2em;
+}
+
+
+@media (min-width: 666px) { 
+    .show-container {
+        padding: 4em;
+        text-align: justify;
+    }
+}
+
