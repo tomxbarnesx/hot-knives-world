@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import './Header.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 class Header extends Component {
 
     iconFunction() {
@@ -25,7 +28,7 @@ class Header extends Component {
             <div className="nav-button right-nav">photos</div>
             <div className="nav-button right-nav">contact</div>
             <div className="nav-hamburger">
-                <i></i>
+                <FontAwesomeIcon icon={faBars} />
             </div>
         </div>
         )
